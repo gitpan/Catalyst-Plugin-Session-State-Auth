@@ -5,7 +5,7 @@ use HTTP::Headers::Util qw(split_header_words);
 
 use namespace::clean -except => 'meta';
 
-our $VERSION = '0.0002';
+our $VERSION = '0.0003';
 
 extends 'Catalyst::Plugin::Session::State';
 with 'MooseX::Emulate::Class::Accessor::Fast';
@@ -55,6 +55,7 @@ Catalyst::Plugin::Session::State::Auth -
 Use signature in HTTP MAC authentication scheme to pass the session id between requests
 
 =head1 SYNOPSIS
+
     In MyApp.pm
     use Catalyst qw/
       Session
