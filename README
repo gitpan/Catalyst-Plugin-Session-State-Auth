@@ -3,13 +3,12 @@ NAME
     authentication scheme to pass the session id between requests
 
 SYNOPSIS
-        In MyApp.pm
-        use Catalyst qw/
-          Session
-          Session::State::Auth
-          Session::Store::Foo
-          /;
-
+    In MyApp.pm
+    use Catalyst qw/
+      Session
+      Session::State::Auth
+      Session::Store::Foo
+      /;
 DESCRIPTION
     In your HTTP request Authorization: MAC token="h480djs93hd8",
     timestamp="137131200", nonce="dj83hs9s",
