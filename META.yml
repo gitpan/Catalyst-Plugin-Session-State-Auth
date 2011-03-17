@@ -23,9 +23,11 @@ no_index:
     - t
 requires:
   Catalyst::Plugin::Session: 0
+  MRO::Compat: 0
   Moose: 0
-  namespace::autoclean: 0
+  MooseX::Emulate::Class::Accessor::Fast: 0
+  namespace::clean: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/zdk/catalyst-plugin-session-state-auth.git
-version: 0.0004
+version: 0.0005
